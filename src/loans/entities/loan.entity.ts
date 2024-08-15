@@ -10,7 +10,7 @@ export class Loan{
     amount: number;
 
     @Column({default: 2})
-    interesTate: number;
+    interestRate: number;
 
     @Column({default: true})
     status: boolean;
